@@ -1,0 +1,44 @@
+# Build directories
+build/
+bin/
+out/
+dist/
+
+# CMake / Make / C++ artifacts
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.cmake
+!server/CMakeLists.txt
+!android/app/src/main/cpp/CMakeLists.txt
+!tools/multimic-cli/CMakeLists.txt
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.wav
+
+# Android / Gradle artifacts
+.gradle/
+android/.gradle/
+android/build/
+android/app/build/
+android/app/.cxx/
+android/local.properties
+*.apk
+*.aar
+
+# IDE & Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Temporary logs & recordings
+*.log
+session.wav
+test_integration_output.wav

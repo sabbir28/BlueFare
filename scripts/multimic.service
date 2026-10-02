@@ -1,0 +1,13 @@
+[Unit]
+Description=BlueFare MultiMic Linux Server
+After=network.target sound.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/multimic-server --output pipewire --web-port 8080
+Restart=on-failure
+RestartSec=5s
+User=%I
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MultiMic Client</string>
+    <string name="title_status">MultiMic Status</string>
+    <string name="scan_connect">Scan / Connect Server</string>
+    <string name="start_mic">START MICROPHONE</string>
+    <string name="stop_mic">STOP MICROPHONE</string>
+    <string name="settings">Settings</string>
+</resources>
